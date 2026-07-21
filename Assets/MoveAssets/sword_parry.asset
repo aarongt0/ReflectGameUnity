@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2077ff2d875dd047a599ff21a4df2c1, type: 3}
+  m_Name: sword_parry
+  m_EditorClassIdentifier: Assembly-CSharp::MoveAsset
+  fps: 60
+  anim: {fileID: 7400000, guid: aed73e39a0a2e7245805ecd96a84add2, type: 2}
+  moveName: Sword_parry
+  hitboxEvents:
+  - frame: 6
+    hitboxId: parrybox1
+    enabled: 0
+    localPos: {x: -1.514, y: -1.424}
+    size: {x: 0, y: 0}
+  - frame: 19
+    hitboxId: parrybox1
+    enabled: 0
+    localPos: {x: -1.514, y: -1.424}
+    size: {x: 0, y: 0}
+  sfxEvents:
+  - frame: 0
+    clip: {fileID: 8300000, guid: 12a50494cec05ee41b8ddf0a643610ad, type: 3}
+    volume: 0
+  hitData:
+    damage: 0
+    angle: 0
+    power: 0
+    hitstunFrames: 0
+    hitstopFrames: 0
+    causesLaunch: 1
+  type: Parry
+  successSfx: {fileID: 8300000, guid: e87a0999e43d3d64c84345ad789f8acb, type: 3}
+  successVolume: 1

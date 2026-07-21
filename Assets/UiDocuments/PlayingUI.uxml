@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; justify-content: flex-end;">
+        <ui:VisualElement name="Playing" enabled="true" style="flex-grow: 0; justify-content: space-around; align-items: auto; flex-direction: row; align-content: flex-start; top: auto; flex-shrink: 0;">
+            <ui:Label text="Label" name="TextLeft" enabled="true" style="align-content: auto; width: 80px; height: 80px; align-self: flex-start; -unity-text-align: middle-center; justify-content: flex-start; left: auto; flex-wrap: nowrap; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Bangers.ttf?fileID=12800000&amp;guid=5dd49b3eacc540408c98eee0de38e0f1&amp;type=3#Bangers&quot;); font-size: 50%; -unity-text-outline-width: 2px; color: rgb(255, 255, 255); -unity-text-outline-color: rgb(0, 0, 0);"/>
+            <ui:Label text="Label" name="TextRight" enable-rich-text="true" style="align-content: auto; width: 80px; height: 80px; align-self: flex-start; -unity-text-align: middle-center; justify-content: flex-start; left: auto; font-size: 50px; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Bangers.ttf?fileID=12800000&amp;guid=5dd49b3eacc540408c98eee0de38e0f1&amp;type=3#Bangers&quot;); -unity-text-outline-width: 2px; -unity-text-outline-color: rgb(0, 0, 0); color: rgb(255, 255, 255); -unity-text-auto-size: none;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="VisualElement" style="flex-grow: 0; height: 30px; flex-shrink: 0; flex-direction: row; align-items: auto; justify-content: space-around;">
+        <ui:Label text="...
+" name="LivesLeft" style="width: auto; height: auto; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Roboto-Bold.ttf?fileID=12800000&amp;guid=4beb055f07aaff244873dec698d0363e&amp;type=3#Roboto-Bold&quot;); color: rgb(255, 255, 255); -unity-text-outline-color: rgb(0, 0, 0); -unity-text-outline-width: 1px; font-size: 45px; -unity-text-align: lower-left;"/>
+        <ui:Label text="...
+" name="LivesRight" style="-unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Roboto-Bold.ttf?fileID=12800000&amp;guid=4beb055f07aaff244873dec698d0363e&amp;type=3#Roboto-Bold&quot;); -unity-text-align: lower-right; font-size: 45px; color: rgb(255, 255, 255); -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(0, 0, 0);"/>
+    </ui:VisualElement>
+</ui:UXML>
