@@ -8,9 +8,10 @@ A 2D platform fighter built in Unity and C#: Smash-style percentage damage, knoc
 
 [Full Match Demo](https://www.youtube.com/watch?v=4BsfhBoHJt4)
 
+- NOTE: Development history was lost when moving the project between repos; this is a clean upload of the final version.
 ---
 ## Features
- 
+
 - **Frame-data combat** — every move is a timeline of hitbox and SFX events fired on exact frames, advanced by a fixed-timestep accumulator so timing is independent of frame rate.
 - **Data-driven moves** — attacks are authored as `ScriptableObject` assets (`MoveAsset` / `MoveSet`), not hard-coded, so new moves are built in the Inspector.
 - **Input buffering** — presses are queued in a short rolling window and resolved by context (a light attack becomes a directional or aerial variant based on movement and grounded state).
